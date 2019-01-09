@@ -2,7 +2,7 @@
   "name": "programming-languages",
   "version": "0.1.0",
   "description": "Programming languages ===============================",
-  "main": "ui/index.ts",
+  "main": "ui/script.ts",
   "dependencies": {
   },
   "devDependencies": {
