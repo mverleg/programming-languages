@@ -1,10 +1,35 @@
-
 @import "../node_modules/reset-css/sass/_reset.scss";
 
 html, body {
-	background-color: #EEE;
+  height: 100%;
+}
+
+@font-face {
+  font-family: firaSans;
+  src: url(../node_modules/typeface-fira-sans/files/fira-sans-latin-100.woff);
+}
+
+@font-face {
+  font-family: firaCode;
+  src: url(../node_modules/firacode/distr/woff/FiraCode-Bold.woff);
+}
+
+body {
+  background-color: #EEE;
+  font-family: firaSans, sans-serif;
+  color: black;
+  font-size: large;
 }
 
 main {
-	background-color: #FFFFFF;
+  background-color: #FFFFFF;
+  margin: 0 auto;
+  min-width: 600px;
+  max-width: 1200px;
+  min-height: 100%;
+  padding: 1em;
+}
+
+h1 {
+  font-size: 200%;
 }

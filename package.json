@@ -4,6 +4,8 @@
   "description": "Programming languages ===============================",
   "main": "ui/index.ts",
   "dependencies": {
+    "firacode": "^1.205.0",
+    "typeface-fira-sans": "0.0.54"
   },
   "devDependencies": {
     "parcel-bundler": "^1.11.0",
