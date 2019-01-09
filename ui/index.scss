@@ -1,4 +1,8 @@
+
 @import "../node_modules/reset-css/sass/_reset.scss";
+//@import "../node_modules/@fortawesome/fontawesome-free/scss/solid.scss";
+//@import "../node_modules/@fortawesome/fontawesome-free/scss/fontawesome.scss";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
 
 html, body {
   height: 100%;
@@ -11,12 +15,13 @@ html, body {
 
 @font-face {
   font-family: firaCode;
-  src: url(../node_modules/firacode/distr/woff/FiraCode-Bold.woff);
+  src: url(../node_modules/firacode/distr/woff/FiraCode-Medium.woff);
 }
 
 body {
   background-color: #EEE;
-  font-family: firaSans, sans-serif;
+  font-family: firaCode, sans-serif;
+  font-variant-ligatures: common-ligatures;
   color: black;
   font-size: large;
 }
@@ -28,6 +33,10 @@ main {
   max-width: 1200px;
   min-height: 100%;
   padding: 1em;
+}
+
+nav.search {
+
 }
 
 h1 {
