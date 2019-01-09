@@ -1,0 +1,21 @@
+cargo-features = ["profile-overrides"]
+
+[package]
+name = "api"
+version = "0.1.0"
+authors = ["Mark <mverleg.noreply@gmail.com>"]
+edition = "2018"
+
+[[bin]]
+name = "programming_languages_api"
+path = "main.rs"
+
+# Non-workspace dependencies should be optimized
+[profile.dev.overrides."*"]
+opt-level = 3
+
+[dependencies]
+data = { path = "../data" }
+log = { version = "0.4.6" }
+env_logger = { version = "0.5.13" }
+clap = { version = "2.32.0" }
