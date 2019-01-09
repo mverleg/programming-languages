@@ -4,7 +4,7 @@ Install
 
 .. code-block:: bash
 
-    npm install -g parcel-bundler
+    npi i
     rustup update
 
 Build & run
@@ -12,4 +12,5 @@ Build & run
 
 .. code-block:: bash
 
-
+    parcel ui/index.html
+    cargo run
