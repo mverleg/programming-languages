@@ -1,0 +1,25 @@
+{
+  "name": "programming-languages",
+  "version": "0.1.0",
+  "description": "Programming languages ===============================",
+  "main": "ui/index.ts",
+  "dependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.11.0",
+    "sass": "^1.15.3",
+    "typescript": "^3.2.2"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mverleg/programming-languages.git"
+  },
+  "author": "Mark",
+  "license": "UNLICENSED",
+  "bugs": {
+    "url": "https://github.com/mverleg/programming-languages/issues"
+  },
+  "homepage": "https://github.com/mverleg/programming-languages#readme"
+}
